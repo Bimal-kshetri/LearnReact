@@ -1,0 +1,15 @@
+1. to see branch
+    -git branch
+
+2.creating branch
+    -git branch branchNmae
+
+3. switch branch
+    - git checkout branchNmae
+ 
+ 4. switching and creating branch
+    -git checkout -b branchNmae
+
+5. delete branch
+ -git branch -d branchName
+ 

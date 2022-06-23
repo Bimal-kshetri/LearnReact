@@ -1,0 +1,28 @@
+What is Git AND GitHUB????
+
+                Git
+    - Git is version control system. It is installed in local computer. 
+
+    - It's purpose:
+        - Tracking the changes
+        - Tracking who made the changes
+        - Code collaboration
+    
+    -git do:
+        - manage project through repository= folder.
+        - clone the project to loacl dir
+        - control and track the changes with staging and commiting
+        - Branch and merge the different version of project
+        - push the changes to the main project
+        - pull the latest changes to local device
+
+    Working with Git:
+    - INITIALIZE git on the folder or clone the folder
+    - ADD the changes or MODIFIED (create, delete) file made on the folder to STAGE
+    - The STAGED files are then COMMITTED
+
+
+                GitHUB
+    -GitHub is GUI where git is CLI
+    -Github makes tools that uses Git.
+

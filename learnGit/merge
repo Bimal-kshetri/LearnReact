@@ -1,0 +1,6 @@
+fast forward //changes not done in master but in feature
+    -git merge branchName
+
+to get merging graph
+    -git log --oneline --graph
+    

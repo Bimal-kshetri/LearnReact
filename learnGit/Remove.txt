@@ -1,0 +1,11 @@
+remove file:
+
+git ls-files        //shows file in staging area
+    - rm fileName   //remove only file from local repository
+    - git rm filename       //removes file from local as well as staging area.
+    - git rm -r .
+    -git rm --cached filename   //remove file from staging
+
+
+checkout unstaged changes
+    -git checkout -- fileName       //this will discard all the unstaged changes done on file.

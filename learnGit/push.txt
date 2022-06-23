@@ -1,0 +1,8 @@
+cloning file:
+    git clone "fileName"
+pushing fle:
+    add file
+        -git remote add origin "fileName"
+    push file:
+        -git push origin branchName
+        

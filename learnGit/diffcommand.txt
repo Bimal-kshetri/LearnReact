@@ -1,0 +1,50 @@
+            current dir -->staging -->local repo -->remote repo
+
+-git diff
+
+index.html ==> animal
+    -git add .  ==>adding to staging
+
+
+1. comparing staging and current dir file
+again index.html ==> animal, bird ==> MODIFIED
+    - staging index.html ==>animal ; where as working dir index.html ==>animal, bird
+    -git diff index.html
+
+2.comparing committed file and current dir file
+-commit the file of staging
+    - git diff HEAD index.html                  //here head is representing last committed file.
+
+3.comparing committed file and stage dir file
+-add the file of index.html to stage
+    - git diff --staged HEAD index.html       OR git diff --cached Head index.html
+    - source -> committed
+    - dest -> staging         
+  
+
+4.comparing committed file and currenet dir file
+-commit the file of index.html
+-add some content in working dir to make it diff i.e. add hello
+    - git diff --1e690bb index.html     
+  
+
+
+  NOTE: 
+        seePrevious commit:
+            git log --oneline
+
+5.comparing committed file and staged dir file
+-add some content in working dir to make it diff i.e. add hello
+    - git diff --staged 1e690bb    
+  
+6.comparing 2 committed file
+    - git diff 1e690bb b39d8d3 index.html
+  
+
+7.comparing 2 branches
+    - git diff master branchName
+
+7.comparing local and remote branch
+    - git diff master origin/branchName
+  
+

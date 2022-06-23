@@ -1,0 +1,58 @@
+   
+                current dir -->staging -->local repo -->remote repo
+   
+    1. Downloading git:
+        - use chrome to download git or just type git --version to install and see git version
+
+    2. Configure:  (git config ):
+        - git config --global user.name "name_here"
+        - git config --global user.email "email_here"
+
+///global set username or email everywhere but is not requried for current repo
+
+    3. make dir and INITIALIZE:
+        - mkdir <dirName>    ///// to make folder
+        - git init          ////// to INITIALIZE git on the folder
+
+    4. make clone of the project:
+        -git clone <path>       //clone the project at the present at the path
+
+    5.check the status of file of the folder:
+        - git status                //shows the status of files(tracked-> files added to the repository AND untracked-> not added to the repository)
+        - git status --short        //shows the status in more compact and clear way. [?? =untracked, A= staged, M=MODIFIED, D=delete]
+
+///To tracked the file we have to stage them. That is ready to be committed.
+
+    6. adding to stage:
+        - git add <fileName>                //to stge a individual file
+        - git add --all  OR git add -A   OR git add .   //to stge all file present in the repository
+
+    7. commiting files from stage
+        - git commit -m "messageHere"       //Commit all the files with messageHere
+    
+    8. Branch
+        -git branch <branchName>        //make a new branch
+        - git branch                    //shows all the branch; * = current branch;
+    
+    9. Changing branch:
+        -git checkout "toBeChangedBranchName"      //moving to other branch from currenet
+//IsModified
+
+    10. commiting without stage:
+        - git commit -a -m "commitMessage"          //commiting without adding to stage.
+
+    11. Branching and switching directly:
+        - git checkout -b "toBeChangedBranchName"  //creating branch and switching
+
+    12. switching back to Master branch:
+        -git checkout branch
+
+    13. merging branches:
+        - First switch to master branch
+        - git merge "toBeMergedBranchName"          //cmd is executed from main branch
+    
+    14. See the differences between or file:
+        -git diff fileName
+    
+    15. delete branch
+        - git branch -d "toBeDeletedBranchName"     //deleting the branch

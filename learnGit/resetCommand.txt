@@ -1,0 +1,8 @@
+reset the file from staging area:
+    -git reset fileName
+
+reset committed file:
+    -git reset <mode> <commitID>
+    modes: --mixed   //default mode; discard changes in loacl and staging area
+            --soft  //discard changes in loacl only.
+            --hard   //discard changes from everywhere; all file above commitId(i.e., towards the current file) will be discarded 
